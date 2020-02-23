@@ -8,7 +8,7 @@ import java.util.Objects;
 /**
  * 用户认证凭证
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class Credential {
     private final String id;

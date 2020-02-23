@@ -3,7 +3,7 @@ package com.ts.server.mask;
 /**
  * 自定义异常
  *
- * @author <a href="hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class BaseException extends RuntimeException {
 

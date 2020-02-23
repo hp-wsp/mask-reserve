@@ -5,7 +5,7 @@ import com.ts.server.mask.security.Credential;
 /**
  * 用户Token业务服务
  *
- * @author WangWei
+ * @author TS Group
  */
 public interface TokenService {
 

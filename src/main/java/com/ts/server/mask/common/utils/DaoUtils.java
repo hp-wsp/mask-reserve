@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 /**
  * 数据操作工具类
  * 
- * @author WangWei
+ * @author TS Group
  */
 public class DaoUtils {
 	public static final String DATA_SEPARATOR = "$";

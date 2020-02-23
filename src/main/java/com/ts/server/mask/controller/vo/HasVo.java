@@ -3,7 +3,7 @@ package com.ts.server.mask.controller.vo;
 /**
  * 查询记录存在
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class HasVo {
     private final boolean has;

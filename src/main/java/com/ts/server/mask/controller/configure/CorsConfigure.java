@@ -12,7 +12,7 @@ import java.util.Collections;
 /**
  * CORS 配置
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @Configuration
 public class CorsConfigure {

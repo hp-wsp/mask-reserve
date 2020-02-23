@@ -7,7 +7,7 @@ import javax.validation.constraints.NotBlank;
 /**
  * 管理员修改信息
  *
- * <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class ManagerInfoForm {
     @ApiModelProperty(value = "姓名")

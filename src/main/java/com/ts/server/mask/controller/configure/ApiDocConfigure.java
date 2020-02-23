@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * Api文档配置
  *
- * @author <a href="mailto:hhywangwei@gmail.com>WangWei</a>
+ * @author TS Group
  */
 @Configuration
 @EnableSwagger2

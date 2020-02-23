@@ -10,7 +10,7 @@ import java.security.MessageDigest;
 /**
  * 安全工具类
  *
- * @author WangWei
+ * @author TS Group
  */
 public class SecurityUtils {
     private static final Logger logger = LoggerFactory.getLogger(SecurityUtils.class);

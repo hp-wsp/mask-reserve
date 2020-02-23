@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 /**
  * 省份证号工具类
  *
- * @author WangWei
+ * @author TS Group
  */
 public class IDCardUtils {
     private static final Logger logger = LoggerFactory.getLogger(IDCardUtils.class);

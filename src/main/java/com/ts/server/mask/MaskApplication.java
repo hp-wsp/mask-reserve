@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * 程序入口程序
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @SpringBootApplication
 @EnableScheduling

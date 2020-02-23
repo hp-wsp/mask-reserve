@@ -21,7 +21,7 @@ import java.util.Optional;
 /**
  * 基础权限认证拦截器
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
     private static final Logger LOGGER = LoggerFactory.getLogger(AuthorizationInterceptor.class);

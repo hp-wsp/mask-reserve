@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 管理员数据操作
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @Repository
 public class ManagerDao {

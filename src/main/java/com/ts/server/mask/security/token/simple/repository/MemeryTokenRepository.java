@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 /**
  * 实现内存方式token存储
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @Repository
 public class MemeryTokenRepository implements TokenRepository {

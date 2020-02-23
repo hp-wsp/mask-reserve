@@ -14,7 +14,7 @@ import java.util.Optional;
 /**
  * 访问Token服务
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @Service
 public class SimpleTokenService implements TokenService {

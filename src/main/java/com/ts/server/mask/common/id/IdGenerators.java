@@ -6,7 +6,7 @@ import java.util.function.Function;
 /**
  * 自动生成ID工具类
  * 
- * @author WangWei
+ * @author TS Group
  */
 public class IdGenerators {
 	private static IdGenerator<String> uuIdGenerator = new UUIDGenerator();

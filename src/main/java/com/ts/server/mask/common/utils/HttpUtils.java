@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 /**
  * HTTP工具类
  *
- * <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class HttpUtils {
 

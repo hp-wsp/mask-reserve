@@ -8,7 +8,7 @@ import javax.validation.constraints.NotBlank;
 /**
  * 登陆提交数据
  *
- * @author WangWei
+ * @author TS Group
  */
 @ApiModel("登陆提交数据")
 public class LoginForm {

@@ -11,7 +11,7 @@ import java.util.function.Function;
 /**
  * My sql sequence
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class SeqGenerator<T> implements IdGenerator<T> {
     private static final Logger LOGGER = LoggerFactory.getLogger(SeqGenerator.class);

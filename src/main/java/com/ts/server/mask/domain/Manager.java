@@ -10,7 +10,7 @@ import java.util.Objects;
 /**
  * 管理员
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class Manager {
     @ApiModelProperty(value = "编号")

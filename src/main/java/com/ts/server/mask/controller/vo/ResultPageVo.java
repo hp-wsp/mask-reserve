@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 /**
  * 输出分页记录
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class ResultPageVo<T> extends ResultVo<Collection<T>> {
     @ApiModelProperty(value = "查询当前页数")

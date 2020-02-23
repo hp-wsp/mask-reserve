@@ -3,7 +3,7 @@ package com.ts.server.mask.controller.vo;
 /**
  * 执行是否成功
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public class OkVo {
     private final boolean ok;

@@ -3,7 +3,7 @@ package com.ts.server.mask.common.id;
 /**
  * 自动生成ID
  * 
- * @author WangWei
+ * @author TS Group
  */
 public interface IdGenerator<T> {
 

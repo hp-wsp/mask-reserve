@@ -8,7 +8,7 @@ import javax.validation.constraints.Size;
 /**
  * 修改密码提交数据
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @ApiModel("修改密码提交数据")
 public class PasswordUpdateForm {

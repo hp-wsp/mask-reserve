@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * 通过UUID生成ID
  * 
- * @author WangWei
+ * @author TS Group
  */
 public class UUIDGenerator implements IdGenerator<String> {
 

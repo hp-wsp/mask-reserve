@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 /**
  * 重置用户密码
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @ApiModel("重置密码")
 public class PasswordResetForm {

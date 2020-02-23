@@ -7,7 +7,7 @@ import java.util.Optional;
 /**
  * Token存储接口
  * 
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 public interface TokenRepository {
 

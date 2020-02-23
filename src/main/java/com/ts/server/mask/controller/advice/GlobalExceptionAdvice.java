@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * 全局Exception拦截处理
  *
- * @author <a href="mailto:hhywangwei@gmail.com">WangWei</a>
+ * @author TS Group
  */
 @ControllerAdvice
 public class GlobalExceptionAdvice {

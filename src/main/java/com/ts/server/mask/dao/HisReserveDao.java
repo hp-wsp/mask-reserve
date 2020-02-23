@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 /**
  * 历史预定信息数据操作
  *
- * @author Ts Group
+ * @author TS Group
  */
 @Repository
 public class HisReserveDao {

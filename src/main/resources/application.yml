@@ -1,0 +1,59 @@
+spring:
+  appliation:
+    name: mask-server
+    description: ts safe server application
+    author: TS Group
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  servlet:
+    multipart:
+      enabled: false
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+    favicon:
+      enabled: false
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      default-property-inclusion: non_null
+      deserialization:
+        FAIL_ON_UNKNOWN_PROPERTIES: false
+      time-zone: GMT+8
+  datasource:
+      type: com.zaxxer.hikari.HikariDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      username: dev
+      password: 12345678
+      url: jdbc:mysql://cd-cdb-jll51z7q.sql.tencentcdb.com:63658/mask_db?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      hikari:
+        maximum-pool-size: 60
+        idle-timeout: 3600000
+        max-lifetime: 21600000
+        data-source-properties:
+          cache-prep-stmts: true
+          useServerPrepStmts: true
+          prep-stmt-cache-size: 250
+          prep-stmt-cache-sql-limit: 2048
+  flyway:
+    locations: classpath:/db
+    baseline-on-migrate: false
+    clean-on-validation-error: false
+    clean-disabled: false
+    enabled: true
+
+server:
+  port: 8090
+  compression:
+    enabled: true
+    mime-types: text/html,application/json
+
+mask:
+  from-hour: 18
+  from-minute: 0
+  to-hour: 21
+  to-minute: 0
+  notice: "我县自2月24日起，启动网上预约购买口罩，首批7万个，投放到83个药店（含乡镇），每预约成功一人，则药店库存数量减少5个，当库存数量为零时则不能再预约，以后根据实际情况进行投放，广大居民可持续关注，不要抢购，不要囤积。修水县居民凭身份证和手机号码，根据就近原则进行网上预约，预约时间每天上午9时到晚上9时。预约成功者须领取“修易通”电子通行证，凭预约成功截图和本人身份证县城范围内第二天、乡镇三天后上午8时至下午6时到预约的药店购买口罩，每个1元。每个预约成功的身份证一次限购5个口罩，每个身份证每两天可预约一次。"
+  limit: 5
+  int-day: 2
